@@ -45,7 +45,7 @@ footer {
     width: 100%;
 }
 footer div {
-    background-color: lightgray;
+    background-color: rgb(250, 0, 0);
     color: black;
     height: 80px;
     

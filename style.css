@@ -53,14 +53,30 @@ footer {
     
 }
 
-footer ul {
+/* footer ul {
     float: none;
-}
+} */
 
-ul li {
+.list li {
     float:left;
 }
- ul .list3 {
+ footer p {
     float: right;
+    position: absolute;
     display: flex;
+    height: 100%;
+    margin: 0px;
+    padding: 0px; 
+    width: 40%;
+    right:80px;
+    align-content: center;
+ }
+footer ul li a {
+    padding-right: 50px;
+ }
+ .list {
+    width: 50%;
+ }
+ footer ul {
+    width:400px;
  }

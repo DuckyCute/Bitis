@@ -39,17 +39,27 @@ div ul li:nth-child(even) {
     padding-left: 5px;
     padding-right: 5px;
 }
+
 footer {
     position: fixed;
     bottom:0px;
     width: 100%;
 }
-footer div {
-    background-color: rgb(250, 0, 0);
+
+footer {
+    background-color: lightgrey;
     color: black;
     height: 80px;
     
 }
-footer div ul {
-    float: left;
+
+footer ul {
+    float: none;
 }
+
+ul li {
+    float:left;
+}
+ ul .list3 {
+    float: right;
+ }

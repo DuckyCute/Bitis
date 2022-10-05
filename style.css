@@ -44,9 +44,6 @@ footer {
     position: fixed;
     bottom:0px;
     width: 100%;
-}
-
-footer {
     background-color: lightgrey;
     color: black;
     height: 80px;
@@ -60,23 +57,20 @@ footer {
 .list li {
     float:left;
 }
- footer p {
+ footer ul p {
     float: right;
     position: absolute;
-    display: flex;
-    height: 100%;
+    display:inline-block;
+    height: 50%;
     margin: 0px;
-    padding: 0px; 
-    width: 40%;
-    right:80px;
-    align-content: center;
+    width: 30%;
+    right:35px;
+    padding-top: 0px;
+    margin-bottom: 100px;
  }
 footer ul li a {
     padding-right: 50px;
  }
  .list {
     width: 50%;
- }
- footer ul {
-    width:400px;
  }
